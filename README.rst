@@ -2,13 +2,13 @@
 django-mathfilters
 ##################
 
-.. image:: https://github.com/dbrgn/django-mathfilters/workflows/CI/badge.svg
+.. image:: https://github.com/dbrgn/django-mathfilters/actions/workflows/ci.yml/badge.svg
     :alt: Build status
-    :target: https://github.com/dbrgn/django-mathfilters/actions?query=branch%3Amaster
+    :target: https://github.com/dbrgn/django-mathfilters/actions/workflows/ci.yml
 
-.. image:: https://pypip.in/d/django-mathfilters/badge.png
-    :alt: PyPI download stats
-    :target: https://crate.io/packages/django-mathfilters
+.. image:: https://badge.fury.io/py/django-mathfilters.svg
+    :alt: PyPI badge
+    :target: https://pypi.org/project/django-mathfilters/
 
 
 django-mathfilters is a Python 3 module that provides different simple math
@@ -80,10 +80,11 @@ provides the following filters:
 Version Support
 ===============
 
-This module officially supports Python 3.5+ as well as PyPy3. Support for Python
-3.3 and 3.4 is provided on best-effort basis, but there are no CI tests for it.
+This module officially supports Python 3.9+ as well as PyPy3.
 
-Supported Django versions are 1.11+, 2.x and 3.x.
+Supported Django versions are 4.2, 5.0 and 5.1.
+
+Support for older versions of both is possible however there are no CI tests for them.
 
 
 Development
@@ -96,4 +97,4 @@ auto-formatting. Adherence to the rules is enforced in CI.
 License
 =======
 
-`MIT License <http://www.tldrlegal.com/license/mit-license>`_, see LICENSE file.
+`MIT License <https://www.tldrlegal.com/license/mit-license>`_, see LICENSE file.
