@@ -97,4 +97,4 @@ auto-formatting. Adherence to the rules is enforced in CI.
 License
 =======
 
-`MIT License <http://www.tldrlegal.com/license/mit-license>`_, see LICENSE file.
+`MIT License <https://www.tldrlegal.com/license/mit-license>`_, see LICENSE file.
