@@ -80,10 +80,11 @@ provides the following filters:
 Version Support
 ===============
 
-This module officially supports Python 3.5+ as well as PyPy3. Support for Python
-3.3 and 3.4 is provided on best-effort basis, but there are no CI tests for it.
+This module officially supports Python 3.9+ as well as PyPy3.
 
-Supported Django versions are 1.11+, 2.x and 3.x.
+Supported Django versions are 4.2, 5.0 and 5.1.
+
+Support for older versions of both is possible however there are no CI tests for them.
 
 
 Development
