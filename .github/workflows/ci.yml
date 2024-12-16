@@ -15,19 +15,21 @@ jobs:
     strategy:
       matrix:
         python:
-          - '3.5'
-          - '3.6'
-          - '3.7'
+          - '3.9'
+          - '3.10'
+          - '3.11'
+          - '3.12'
+          - '3.13'
           - 'pypy3'
         django:
-          - '1.11'
-          - '2.2'
-          - '3.0'
+          - '4.2'
+          - '5.0'
+          - '5.1'
     name: Python ${{ matrix.python }} / Django ${{ matrix.django }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Setup python ${{ matrix.python }}
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python }}
       - name: Setup django ${{ matrix.django }}
@@ -39,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Check code formatting
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Black Code Formatter
         uses: lgeiger/black-action@master
         with:
